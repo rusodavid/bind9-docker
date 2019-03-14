@@ -1,0 +1,13 @@
+    zone "home.lan" IN {
+            type master;
+            file "/etc/bind/db.home.lan";
+      };
+    zone "1.168.192.in-addr.arpa" {
+            type master;
+            file "/etc/bind/db.rev.1.168.192.in-addr.arpa";
+      };
+   zone "2.168.192.in-addr.arpa" {
+            type master;
+            file "/etc/bind/db.rev.2.168.192.in-addr.arpa";
+      };
+

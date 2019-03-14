@@ -1,0 +1,9 @@
+@ IN SOA raspberry.home.lan. hostmaster.home.lan. (
+        2017081401 ; serial
+        8H ; refresh
+        4H ; retry
+        4W ; expire
+        1D ; minimum
+    )
+               IN NS raspberry.home.lan.
+    1         IN PTR router.home.lan.

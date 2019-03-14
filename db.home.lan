@@ -1,0 +1,12 @@
+    home.lan. IN SOA raspberry.home.lan. hostmaster.home.lan. (
+       2017081401 ; serial
+        8H ; refresh
+        4H ; retry
+        4W ; expire
+        1D ; minimum
+    )
+    home.lan. IN NS raspberry.home.lan.
+    home.lan. IN MX 10 raspberry.home.lan.
+    localhost    IN A 127.0.0.1
+    raspberry    IN A 192.168.2.11
+    router       IN A 192.168.1.1

@@ -1,0 +1,11 @@
+$TTL    86400
+@       IN      SOA     raspberry.home.lan. hostmaster.home.lan. (
+                            2017081401 ; serial
+                            8H ; refresh
+                            2H ; retry
+                            10D ; expire
+                            1D ; minimum
+)
+  NS raspberry.home.lan.
+  A 127.0.0.1
+* IN      A       127.0.0.1
